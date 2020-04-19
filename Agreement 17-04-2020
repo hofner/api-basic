@@ -1,0 +1,16 @@
+{
+  "signedBy": "Vera Carpenter",
+  "name": "Agreement 17-04-2020",
+  "products": [
+    {
+      "name": "Losartan",
+      "price": 548.44,
+      "products": []
+    },
+    {
+      "name": "Methyldopa",
+      "price": 159.46,
+      "products": []
+    }
+  ]
+}

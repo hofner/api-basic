@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "68deaf68-f418-4be4-ae72-e6b6dde688b5",
+		"name": "netcracker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create agreement",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Agreement 17-04-2020\",\n\t\"signedBy\":\"Vera Carpenter\",\n\t\"products\":[]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/agreements/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"agreements",
+						""
+					]
+				},
+				"description": "creates an agreement"
+			},
+			"response": []
+		},
+		{
+			"name": "create agreement2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Agreement 17-04-2020\",\n\t\"signedBy\":\"Vera Carpenter\",\n\t\"products\":[]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/agreements/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"agreements",
+						""
+					]
+				},
+				"description": "creates an agreement"
+			},
+			"response": []
+		},
+		{
+			"name": "update Agreement",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Agreement 17-04-2020\",\n\t\"signedBy\":\"Vera Carpenter\",\n\t\"products\": [\n            {\n                \"name\": \"Losartan\",\n                \"price\": 548.44,\n                \"parent\": null,\n                \"products\": []\n            },\n            {\n                \"name\": \"Methyldopa\",\n                \"price\": 159.46,\n                \"parent\": null,\n                \"products\": []\n            }\n        ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/agreements/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"agreements",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update Agreement2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Agreement 17-04-2020\",\n\t\"signedBy\":\"Vera Carpenter\",\n\t\"products\": [\n            {\n                \"name\": \"Losartan\",\n                \"price\": 548.44,\n                \"parent\": null,\n                \"products\": []\n            },\n            {\n                \"name\": \"Methyldopa\",\n                \"price\": 159.46,\n                \"parent\": null,\n                \"products\": []\n            }\n        ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/agreements/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"agreements",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generadorProductos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "metodo que sirve para obtener un ejemplo en json de todos los productos asociados a varios Agreements"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

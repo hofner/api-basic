@@ -1,0 +1,27 @@
+{
+  "signedBy": "Jared Rhodes",
+  "name": "Agreement 19-04-2020",
+  "products": [
+    {
+      "name": "Production Waste – Standard Bin Bag",
+      "price": 101.87,
+      "products": [
+        {
+          "name": "Bin Hire – 120 Litre Food Waste engine",
+          "price": 637.3,
+          "products": []
+        },
+        {
+          "name": "Bin Hire – 331 Litre Glass engine",
+          "price": 692.1,
+          "products": []
+        },
+        {
+          "name": "Bin Hire – 240 Litre Wheelie engine",
+          "price": 177.34,
+          "products": []
+        }
+      ]
+    }
+  ]
+}
